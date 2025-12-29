@@ -20,7 +20,7 @@ __pycache__/
 .DS_Store
 
 # Large Model Files (use Git LFS or store separately)
-*.pth
+# *.pth files are now tracked with Git LFS in backend/
 *.pt
 *.ckpt
 *.safetensors
