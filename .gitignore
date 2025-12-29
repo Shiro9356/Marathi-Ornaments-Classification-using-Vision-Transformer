@@ -1,0 +1,58 @@
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Large Model Files (use Git LFS or store separately)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Dataset (store separately or use Git LFS)
+Dataset/
+
+# Build/Result folders
+Result_Diagram/
+ML_Model/
+model_dia.pdf
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+.streamlit/
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
